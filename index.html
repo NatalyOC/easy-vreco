@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Easy-VReco</title>
+  <link href="https://fonts.googleapis.com/css?family=Parisienne|Pacifico|Dancing+Script" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper header-style">
+        <a>
+          <img class="logo responsive-img" src="assets/images/icon-bycicle.png" alt="">
+        </a>
+        <a href="#" class="brand-logo"> ¡Easy-vreco! </a>
+        <a href="#" data-activates="slide-out" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="https://limabici.com/">VENTA/ALQUILER DE BICICLETAS</a>
+          </li>
+          <li>
+            <a href="http://www.mirabiciperu.pe/">TURISMO EN BICICLETA</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="cover-page" class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l12">
+          <div class="title">
+            <h3 class="center-align">Travel by bicycle</h3>
+            <p>with "Easy-vreco"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="main" class="content-main">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="row">
+            <div class="col s12 m12 l3">
+              <input type="button" id="find" value="Encuentrame" class="waves-effect waves-light btn color-balance">
+            </div>
+            <div class="input-field col s12 m6 l3">
+              <i class="material-icons prefix">person_pin_circle</i>
+              <input id="input-split" type="text" class="validate" placeholder="Origen">
+            </div>
+            <div class="input-field col l3 m6 s12">
+              <i class="material-icons prefix">near_me</i>
+              <input id="input-destination" type="text" class="validate" placeholder="Destino">
+            </div>
+            <div class="col l3 m12 s12">
+              <input type="button" id="route" value="Trazar Ruta" class="waves-effect waves-light btn color-balance-btn">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="page-footer footer-style">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">Photo by Jilbert Ebrahimi on Unsplash</a>
+      </div>
+    </div>
+  </footer>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATWh30frXH-aOip4zAfWt-vMEszeMBYu8&callback=initMap&libraries=places"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
