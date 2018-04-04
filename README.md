@@ -6,3 +6,5 @@ Es una página web que te permite al usuario ubicarse y descubrir lugares. Decid
 #### Vista Mobile 
 
 ![webmobile](assets/images/file.png)
+
+##Desarrollado para[Laboratoria](http://laboratoria.la)
